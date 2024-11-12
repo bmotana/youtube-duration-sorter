@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icon128.png" alt="YouTube Duration Sorter Icon"/>
+  <img src="./assets/icon128.png" alt="YouTube Duration Sorter Icon"/>
 </p>
 
 <h1 align="center">YouTube Duration Sorter</h1>
@@ -12,12 +12,13 @@
   <img src="https://img.shields.io/badge/Platform-Chrome-brightgreen"/>
   <img src="https://img.shields.io/badge/Type-Extension-yellow"/>
   <img src="https://img.shields.io/badge/State-Active-success"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow"/>
 </p>
 
 ---
 
 <p align="center">
-  [Space for Demo GIF/Video showing the sorting functionality in action]
+  <img src="./assets/videos_and_gifs/demo_gif.gif"/>
 </p>
 
 ---
@@ -48,14 +49,32 @@ To install the extension locally:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/[username]/youtube-duration-sorter.git
+   git clone https://github.com/bmotana1/youtube-duration-sorter.git
 
+2. Open Chrome and navigate to chrome://extensions/
+3. Enable "Developer mode" in the top right corner
+4. Click "Load unpacked" and select the extension directory
 
-## Screenshots
+## 🚀 How to Use
+1. Navigate to any YouTube page with multiple videos (search results, playlist, channel)
+2. Look for the new "Longest" and "Shortest" buttons next to YouTube's filter chips
+3. Click either button to sort videos by duration
+4. Use the "Revert" button to return to the original order
+5. Videos will automatically load as you scroll
+## 📸 Screenshots
 <p align="center">
 <img src="./assets/sort_buttons.png">
+<br>
 <br>
 <img src="./assets/max_video_popup.png">
 </p>
 
-## License
+## 📄  License
+This project is licensed under the MIT License - see the LICENSE file for details.
+<br>
+<br>
+<br>
+<br>
+<p align="center">
+  Made with ❤️ for YouTube power users
+</p>
