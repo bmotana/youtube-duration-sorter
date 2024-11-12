@@ -4,7 +4,6 @@
   "version": "1.0",
   "description": "Sort YouTube videos by duration",
   "author": "Ben Motana",
-  "license": "MIT",
   "permissions": ["activeTab", "tabs", "storage"],
   "host_permissions": ["https://*.youtube.com/*"],
   "background": {
