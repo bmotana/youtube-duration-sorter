@@ -1,3 +1,10 @@
+/**
+ * @license
+ * YouTube Duration Sorter
+ * Copyright (c) 2024 Your Name
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 /* global chrome */
 document.addEventListener('DOMContentLoaded', () => {
     const maxVideosSelect = document.getElementById('maxVideosSelect');
