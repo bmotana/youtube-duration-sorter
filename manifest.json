@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Video Sorter",
+  "version": "1.0",
+  "description": "Sort YouTube videos by duration",
+  "author": "Ben Motana",
+  "license": "MIT",
+  "permissions": ["activeTab", "tabs", "storage"],
+  "host_permissions": ["https://*.youtube.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "./assets/icon16.png",
+      "32": "./assets/icon32.png",
+      "48": "./assets/icon48.png",
+      "128": "./assets/icon128.png"
+    },
+    "default_title": "Sort YouTube Videos"
+  },
+  "icons": {
+    "16": "./assets/icon16.png",
+    "32": "./assets/icon32.png",
+    "48": "./assets/icon48.png",
+    "128": "./assets/icon128.png"
+  }
+}
