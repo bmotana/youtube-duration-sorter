@@ -49,7 +49,7 @@ To install the extension locally:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/bmotana1/youtube-duration-sorter.git
+   git clone https://github.com/bmotana/youtube-duration-sorter.git
 
 2. Open Chrome and navigate to chrome://extensions/
 3. Enable "Developer mode" in the top right corner
