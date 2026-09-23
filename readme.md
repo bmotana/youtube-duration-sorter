@@ -53,6 +53,17 @@ To install the extension locally:
 4. Enable "Developer mode" in the top right corner
 5. Click "Load unpacked" and `youtube-duration-sorter-main` folder
 
+## Development
+
+Install the development dependencies and run ESLint:
+
+```bash
+npm ci
+npm run lint
+```
+
+GitHub Actions runs the same lint check on pushes and pull requests. To try a local change, open `chrome://extensions/`, enable **Developer mode**, choose **Load unpacked**, and select the project folder.
+
 ## 🚀 How to Use
 1. Navigate to any YouTube channel's video page
 2. Look for the new "Longest" and "Shortest" buttons next to YouTube's filter chips

@@ -5,7 +5,6 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-/* global chrome */
 console.log('YouTube Sorter content script loaded');
 const DEFAULT_MAX_VIDEOS = 60;
 const SCROLL_DELAY = 500;
